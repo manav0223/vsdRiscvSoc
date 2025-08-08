@@ -39,5 +39,7 @@ This project documents the complete setup process for a RISC-V development toolc
 - ```bash
   sudo dnf groupinstall -y "Development Tools"
   sudo dnf install -y epel-release
+  Installing Initial Dependencies.png
+  
   
 
