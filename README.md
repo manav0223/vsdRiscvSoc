@@ -35,11 +35,9 @@ This project documents the complete setup process for a RISC-V development toolc
 - **CPU**: 2+ cores recommended
 
 - ## 🚀 Installation
-- Once we have completed the installation and verification of Rocky Linux 8.0, Open the terminal and run the base dependencies
+- Once we have completed the installation and verification of Rocky Linux 8.0, Open the terminal and run the base dependencies.
+- ```bash
+  sudo dnf groupinstall -y "Development Tools"
+  sudo dnf install -y epel-release
+  
 
-
-The setup includes comprehensive troubleshooting documentation for compatibility issues between different toolchain versions and solutions for cross-compiler interference problems.
-
-## 🔧 Prerequisites
-
-### System Requirements
