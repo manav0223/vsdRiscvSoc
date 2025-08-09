@@ -74,7 +74,8 @@ pwd=$PWD
 mkdir -p riscv_toolchain
 cd riscv_toolchain
 ```
-<img width="1366" height="768" alt="Create Workspace Directory and Track Path" src="https://github.com/user-attachments/assets/5dad9b2b-18cf-4651-8fd8-87806735c54b" />
+<img width="877" height="99" alt="Create Workspace Directory and Track Path" src="https://github.com/user-attachments/assets/da3f63a7-af51-4ab0-a511-b9256530ba05" />
+
 
 ### 2. Install RISC-V GCC Toolchain
 - Now we Download the prebuilt toolchain and extract it and verify that it is downloaded and extraced correctly. Also add it to our path and verify the path.
