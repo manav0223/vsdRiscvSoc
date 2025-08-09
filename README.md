@@ -37,9 +37,16 @@ This project documents the complete setup process for a RISC-V development toolc
 - ## 🚀 Installation
 - Once we have completed the installation and verification of Rocky Linux 8.0, Open the terminal and run the base dependencies.
 - ```bash
-  sudo dnf groupinstall -y "Development Tools"
-  sudo dnf install -y epel-release
-  Installing Initial Dependencies.png
+sudo dnf groupinstall -y "Development Tools"
+sudo dnf install -y epel-release
+sudo dnf install -y git vim autoconf automake make gcc gcc-c++ \
+mpfr-devel gmp-devel libmpc-devel gawk bison flex texinfo gperf \
+libtool patchutils bc zlib-devel expat-devel wget curl device-tree-compiler
+```bash
+Upon running the above code, we will get some error message like the following.
+
+So gave the command
+    
   
   
 
