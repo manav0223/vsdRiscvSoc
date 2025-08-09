@@ -76,7 +76,6 @@ cd riscv_toolchain
 ```
 <img width="877" height="99" alt="Create Workspace Directory and Track Path" src="https://github.com/user-attachments/assets/da3f63a7-af51-4ab0-a511-b9256530ba05" />
 
-
 ### 2. Install RISC-V GCC Toolchain
 - Now we Download the prebuilt toolchain and extract it and verify that it is downloaded and extraced correctly. Also add it to our path and verify the path.
 # Download the file (complete URL)
@@ -86,7 +85,9 @@ cd riscv_toolchain
 ## Extract the downloaded file
 ```bash
 -tar -xvzf riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14.tar.gz
-```    
+```
+<img width="1366" height="768" alt="Extracting the Downloaded Packages" src="https://github.com/user-attachments/assets/9f37997a-b1bd-45b6-b2ff-08652729a0d1" />
+
 ### 3. Adding the Toolchain to my Path & Creating Permanent Environmrnt Setup
 # Creating RISC-V Environment Setup
 ```bash
