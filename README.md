@@ -37,33 +37,44 @@ This project documents the complete setup process for a RISC-V development toolc
 - ## 🚀 Installation
 - Once we have completed the installation and verification of Rocky Linux 8.0, Open the terminal and run the base dependencies.
  ```bash
--sudo dnf groupinstall -y "Development Tools"
--sudo dnf install -y epel-release
--sudo dnf install -y git vim autoconf automake make gcc gcc-c++ \
--mpfr-devel gmp-devel libmpc-devel gawk bison flex texinfo gperf \
--libtool patchutils bc zlib-devel expat-devel wget curl device-tree-compiler
+sudo dnf groupinstall -y "Development Tools"
+sudo dnf install -y epel-release
 ```
+<img width="1366" height="768" alt="Installing Initial Dependencies" src="https://github.com/user-attachments/assets/81bdd6e1-8a05-4fc8-9c95-9129af151536" />
+<img width="1366" height="768" alt="Step 1" src="https://github.com/user-attachments/assets/6c23e8a2-0ae2-4642-9c30-ed6aeca85b57" />
+
+```
+sudo dnf install -y git vim autoconf automake make gcc gcc-c++ \
+mpfr-devel gmp-devel libmpc-devel gawk bison flex texinfo gperf \
+libtool patchutils bc zlib-devel expat-devel wget curl device-tree-compiler
+```
+<img width="1366" height="768" alt="Step 1 done" src="https://github.com/user-attachments/assets/7fac146f-2b77-444a-b052-d563d17b108a" />
+
 Upon running the above code, we will get some error message like the following.
+<img width="1366" height="86" alt="DTC Error" src="https://github.com/user-attachments/assets/9db33a13-de76-4182-96f5-7d68700fee02" />
 
 So gave the command
 ```bash
--sudo dnf install -y dtc
+sudo dnf install -y dtc
 ```
 On running the above command dtc (device tree compiler got installed).
+<img width="1366" height="768" alt="DTC Installed" src="https://github.com/user-attachments/assets/2a81064a-3276-4d40-b4b6-607c553cbf94" />
 
 After this, I ran the following command to install the gtkwave
 ```bash
--sudo dnf install -y gtkwave
+sudo dnf install -y gtkwave
 ```
+<img width="1366" height="768" alt="GTK Wave Installed" src="https://github.com/user-attachments/assets/40fd8fed-9513-435f-b194-aaf1796d0aeb" />
 
 ## 1. Workspace Setup
 Then we need to create a workspace setpu where we will download and install all our files and tools. We begin by storing our home path which make installing, cleaning and removing files easy.
 ```bash
--cd
--pwd=$PWD
--mkdir -p riscv_toolchain
--cd riscv_toolchain
+cd
+pwd=$PWD
+mkdir -p riscv_toolchain
+cd riscv_toolchain
 ```
+<img width="1366" height="768" alt="Create Workspace Directory and Track Path" src="https://github.com/user-attachments/assets/5dad9b2b-18cf-4651-8fd8-87806735c54b" />
 
 ### 2. Install RISC-V GCC Toolchain
 - Now we Download the prebuilt toolchain and extract it and verify that it is downloaded and extraced correctly. Also add it to our path and verify the path.
