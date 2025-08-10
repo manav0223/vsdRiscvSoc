@@ -9,7 +9,7 @@
 A comprehensive guide for setting up a complete RISC-V development toolchain with detailed troubleshooting and solutions for common issues.
 ## 📋 Table of Contents
 
-- [Overview](https://github.com/kevinshah2205/vsdRiscvSoc/blob/main/README.md#-overview)
+- [Overview](https://github.com/manav0223/vsdRiscvSoc/blob/main/README.md#-overview)
 - [Prerequisites](https://github.com/kevinshah2205/vsdRiscvSoc/blob/main/README.md#-prerequisites)
 - [Installation](https://github.com/kevinshah2205/vsdRiscvSoc/blob/main/README.md#-installation)
 - [Installation Issues Faced](https://github.com/manav0223/vsdRiscvSoc/edit/main/README.md#-installation-issues-faced)
